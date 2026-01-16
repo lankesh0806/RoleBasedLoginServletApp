@@ -21,3 +21,9 @@ A Java Servlet-based Maven web application demonstrating **login authentication*
 - Maven
 - HTML
 - Tomcat 9+ (for deployment)
+
+## Project Structure
+src/main/java/com/example/servlet/ → Servlets (LoginServlet.java, RoleServlet.java)
+src/main/webapp/ → HTML pages (login.html, AdminDashboard.html, UserDashboard.html)
+pom.xml → Maven configuration
+.gitignore → Excludes target folder and IDE files
